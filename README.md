@@ -1,7 +1,7 @@
 # 3D Human Pose Estimation via Deep Neural Network
 
 ## Methodology
-The prediction model adpats the [VGG16](https://arxiv.org/abs/1409.1556) architecture. Based on the [pre-trained model](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) that was used by the VGG team in the ILSVRC-2014 competition, we are using the pre-trained weight for all the convolutional layers to extract deep features from the images and fine tuning the last two dense layers on the [FLIC dataset](http://bensapp.github.io/flic-dataset.html). 
+The prediction model adapts the [VGG16](https://arxiv.org/abs/1409.1556) architecture. Based on the [pre-trained model](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) that was used by the VGG team in the ILSVRC-2014 competition, we are using the pre-trained weight for all the convolutional layers to extract deep features from the images and fine tuning the last two dense layers on the [FLIC dataset](http://bensapp.github.io/flic-dataset.html). 
 
 ## Dependency
 [Keras:Deep Learning library for Theano and TensorFlow](https://keras.io/)
